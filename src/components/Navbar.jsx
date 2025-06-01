@@ -25,18 +25,18 @@ const Navbar = () => {
               name="search"
               id=""
               placeholder="Search"
-              className="bg-white w-full outline-0 rounded-l-full px-3 py-2 text-sm"
+              className="bg-white w-full outline-0 rounded-l-lg px-3 py-2 text-sm"
             />
-            <button className="py-2 px-2 bg-amber-500 rounded-r-full text-purple-950 cursor-pointer">
+            <button className="py-2 px-2 bg-amber-500 rounded-r-lg text-purple-950 cursor-pointer">
               <IoSearchOutline />
             </button>
           </div>
-          <div className="flex justify-between items-center gap-10">
+          <div className="flex justify-between items-center gap-5">
             <div className="text-white text-2xl cursor-pointer">
               <IoMdCart />
             </div>
-            <button className="px-4 py-2 bg-gradient-to-r from-amber-500 to-white hover:bg-gradient-to-l hover:from-white hover:to-amber-500 transition duration-300 ease-in rounded-full text-purple-950 text-sm font-semibold cursor-pointer">
-              Login/SignUp
+            <button className="px-3 py-1 w-[7rem] hover:bg-amber-500 border-solid border-[1px] border-amber-50 transition duration-300 ease-in rounded-lg text-white text-sm font-semibold cursor-pointer">
+              Hello, Sign in
             </button>
           </div>
         </div>

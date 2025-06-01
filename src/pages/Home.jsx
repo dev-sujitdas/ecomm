@@ -137,7 +137,7 @@ const scrollAllProducts = (direction) => {
           <div
             ref={scrollRef}
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-            className="flex overflow-x-auto gap-4 px-10 py-4 "
+            className="flex overflow-x-auto gap-7 px-10 py-4 "
           >
             {prodData
               .filter((p) => p.category === "jewellery")
@@ -180,7 +180,7 @@ const scrollAllProducts = (direction) => {
           <div
             ref={scroll2ndRef}
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-            className="flex overflow-x-auto gap-4 px-10 py-4 "
+            className="flex overflow-x-auto gap-7 px-10 py-4 "
           >
             {prodData.map((item, index) => {
               return (
